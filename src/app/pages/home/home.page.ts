@@ -10,6 +10,7 @@ export class HomePage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(10 * 100)
   }
 
 }

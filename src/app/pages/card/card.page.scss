@@ -1,0 +1,16 @@
+.center-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.io-item{
+    cursor: pointer;
+}
+
+.io-item:hover{
+    background-color: black !important;
+}
+
+.activated {
+    color: var(--ion-color-secondary)!important;
+}

@@ -19,28 +19,28 @@ export class AppComponent implements OnInit {
     },
     {
       title: 'Buttons',
-      url: 'buttons',
+      url: '/buttons',
       icon: 'construct'
     },
     {
-      title: 'Outbox',
-      url: '/folder/Outbox',
-      icon: 'paper-plane'
+      title: 'Alerts',
+      url: '/alerts',
+      icon: 'alert'
     },
     {
-      title: 'Favorites',
-      url: '/folder/Favorites',
-      icon: 'heart'
+      title: 'Actionsheet',
+      url: '/actionsheet',
+      icon: 'albums'
     },
     {
-      title: 'Archived',
-      url: '/folder/Archived',
-      icon: 'archive'
+      title: 'Badge',
+      url: '/badge',
+      icon: 'information'
     },
     {
-      title: 'Trash',
-      url: '/folder/Trash',
-      icon: 'trash'
+      title: 'Card',
+      url: '/card',
+      icon: 'card'
     },
     {
       title: 'Spam',
