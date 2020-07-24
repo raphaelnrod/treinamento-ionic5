@@ -19,8 +19,8 @@ export class AppComponent implements OnInit {
     },
     {
       title: 'Buttons',
-      url: '/buttons',
-      icon: 'construct-outline'
+      url: 'buttons',
+      icon: 'construct'
     },
     {
       title: 'Outbox',

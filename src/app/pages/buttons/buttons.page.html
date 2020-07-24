@@ -1,9 +1,71 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>buttons</ion-title>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Buttons</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <div class="center-container">
+    <div class="btn-wrapper">
+      <div class="title">
+        <h3>Estilos de botões</h3>
+      </div> <!-- title -->
+      <div class="btn-content">
+        <ion-button color="primary">Primary</ion-button>
+        <ion-button color="secondary">Secondary</ion-button>
+        <ion-button color="success">Success</ion-button>
+        <ion-button color="warning">Warning</ion-button>
+        <ion-button color="danger">Danger</ion-button>
+        <ion-button color="dark">Dark</ion-button>
+        <ion-button color="light">Light</ion-button>
+      </div> <!-- btn-colors -->   
+    </div> <!-- btn-wrapper -->
+    <div class="btn-wrapper">
+      <div class="title">
+        <h3>Botão com expand e fill</h3>
+      </div> <!-- title -->
+      <div class="btn-content">
+        <ion-button expand="full">bordas quadradas</ion-button>
+        <ion-button expand="block">bordas arredondadas</ion-button>
+        <ion-button expand="full" fill="outline">bordas quadradas com fill</ion-button>
+        <ion-button shape="round" fill="outline">bordas arredondadas com fill</ion-button>
+      </div> <!-- btn-colors -->
+    </div> <!-- btn-wrapper -->
+    <div class="btn-wrapper">
+      <div class="title">
+        <h3>Botão com icones</h3> 
+      </div> <!-- title -->
+      <div class="btn-content">
+        <ion-button>
+          <ion-icon slot="start" name="star"></ion-icon>
+          Left Icon
+        </ion-button>        
+        <ion-button>
+          <ion-icon slot="end" name="star"></ion-icon>
+          Right Icon
+        </ion-button>        
+      </div> <!-- btn-colors -->
+    </div> <!-- btn-wrapper -->
+    <div class="btn-wrapper">
+      <div class="title">
+        <h3>Botão Tamanhos</h3> 
+      </div> <!-- title -->
+      <div class="btn-content">
+        <ion-button color="success">Default</ion-button>        
+        <ion-button color="success" size="small">Small</ion-button>        
+        <ion-button color="success" size="large">Large</ion-button>        
+      </div> <!-- btn-colors -->
+    </div> <!-- btn-wrapper -->
+    <div class="btn-wrapper">
+      <div class="title">
+        <h3>Botão com evento de clique</h3> 
+      </div> <!-- title -->
+      <div class="btn-content">
+        <ion-button color="danger" (click)="showHome()">Navegar até a page Home</ion-button>            
+      </div> <!-- btn-colors -->
+    </div> <!-- btn-wrapper -->
+  </div> <!-- center-container -->
 </ion-content>
