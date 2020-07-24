@@ -24,3 +24,22 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+.center-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 2%;
+}
+
+.main-btn{
+    width: fit-content;
+    background-color: var(--ion-color-primary);
+    color: black;
+    border-radius: 10px;
+}
+
+.main-btn:hover{
+    background-color: var(--ion-color-primary-tint);
+}
