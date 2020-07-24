@@ -1,0 +1,11 @@
+ion-content .center-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+//config content
+ion-content ion-item{
+    width: 100%;
+    max-width: 468px;
+    padding-right: 20px!important;
+}

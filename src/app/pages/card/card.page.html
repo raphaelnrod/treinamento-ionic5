@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header class="ion-no-padding">
   <ion-toolbar color="primary">
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
@@ -27,21 +27,19 @@
       </ion-card-content>
     </ion-card>
 
-    <ion-card>
-      <ion-list>
-        <ion-item class="io-item activated" href="#/newpage">
-          <ion-icon slot="start" name="warning"></ion-icon>
-          <ion-label>Atenção</ion-label>
-        </ion-item>
-        <ion-item class="io-item" href="#/newpage">
-          <ion-icon slot="start" name="walk"></ion-icon>
-          <ion-label>Pessoa</ion-label>
-        </ion-item>
-        <ion-item class="io-item" href="#/newpage">
-          <ion-icon slot="start" name="trash"></ion-icon>
-          <ion-label>Apagados</ion-label>
-        </ion-item>        
-      </ion-list>
+    <ion-card id="card-list">
+      <ion-item class="activated" href="#">
+        <ion-icon slot="start" name="warning"></ion-icon>
+        <ion-label>Atenção</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon slot="start" name="walk"></ion-icon>
+        <ion-label>Pessoa</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon slot="start" name="trash"></ion-icon>
+        <ion-label>Apagados</ion-label>
+      </ion-item>        
     </ion-card>
   </div>
 </ion-content>
