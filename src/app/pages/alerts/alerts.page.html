@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Alert</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="center-container">
+    <ion-button expand="block" color="secondary" shape="round" (click)="presentAlert()">
+      Simple Alert
+    </ion-button>
+    <ion-button expand="block" color="secondary" shape="round" (click)="multipleAlert()">
+      Multiple button alert
+    </ion-button>
+    <ion-button expand="block" color="secondary" shape="round" (click)="confirm()">
+      Confirm Alert
+    </ion-button>
+    <ion-button expand="block" color="secondary" shape="round" (click)="prompt()">
+      Prompt Alert
+    </ion-button>
+  </div>
+</ion-content>
