@@ -1,0 +1,23 @@
+.center-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkbox-wrapper{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: last baseline;
+    align-items: center;
+}
+
+.checkbox-wrapper ion-label{
+    text-align: end;
+    margin: 10px 15px;
+    font-size: 18px!important;
+}
+
+.w50{
+    float: left;
+    width: 50%;
+}

@@ -43,12 +43,21 @@ export class AppComponent implements OnInit {
       icon: 'card'
     },
     {
-      title: 'Spam',
-      url: '/folder/Spam',
-      icon: 'warning'
+      title: 'Checkbox',
+      url: '/checkbox',
+      icon: 'checkbox'
+    },
+    {
+      title: 'Chip',
+      url: '/chip',
+      icon: 'hardware-chip'
+    },
+    {
+      title: 'Content',
+      url: '/content',
+      icon: 'hardware-chip'
     }
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
   constructor(
     private platform: Platform,
