@@ -3,11 +3,19 @@
     <ion-buttons slot="start">
       <ion-menu-button class="rounded"></ion-menu-button>
     </ion-buttons>
-    <ion-title>Content</ion-title>
+    <ion-title>
+      <div class="default-title">
+        <h2>Content</h2>
+      </div>
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [scrollEvents]="true" (ionScrollStart)="logScrollStart()" (ionScrollEnd)="logScrollEnd()">
+<ion-content
+  [scrollEvents]="true"
+  (ionScrollStart)="logScrollStart()"
+  (ionScrollEnd)="logScrollEnd()">
+
   <div class="fixed-title" slot="fixed" style="text-align: center;">
     <h2>Meu titulo</h2>
   </div>
@@ -15,10 +23,10 @@
   <div class="dinamic-list">
     <ion-list>
       <ion-item>
-        <ion-label>Teste Ionic 5</ion-label>
+        <ion-label>asdasdasdsaasdas</ion-label>
       </ion-item>
       <ion-item>
-        <ion-label>Teste Ionic 5</ion-label>
+        <ion-label>12432423432423423</ion-label>
       </ion-item>
       <ion-item>
         <ion-label>Teste Ionic 5</ion-label>

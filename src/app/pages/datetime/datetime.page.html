@@ -1,0 +1,45 @@
+<ion-header class="custom-toolbar">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button class="rounded"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      <div class="default-title">
+        <h2>datetime</h2>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="center-container">
+    <div class="datetime-wrapper">
+      <ion-item>
+        <ion-label>Date default</ion-label>
+        <ion-datetime></ion-datetime>
+      </ion-item>
+    </div> <!-- datetime-wrapper -->
+
+    <div class="datetime-wrapper">
+      <ion-item>
+        <ion-label>Date & Time</ion-label>
+        <ion-datetime display-format="DD/MM/YYYY HH:mm"></ion-datetime>
+      </ion-item>
+    </div> <!-- datetime-wrapper -->
+
+    <div class="datetime-wrapper">
+      <ion-item>
+        <ion-label>Display picker</ion-label>
+        <ion-datetime display-format="MMMM/YYYY" picker-format="MMMM YYYY"></ion-datetime>
+      </ion-item>
+    </div> <!-- datetime-wrapper -->
+    
+    <div class="datetime-wrapper">
+      <ion-item>
+        <ion-label>Min Máx</ion-label>
+        <ion-datetime display-format="MMMM/YYYY" picker-format="MMMM YYYY" min="2015" max="2022"></ion-datetime>
+      </ion-item>
+    </div> <!-- datetime-wrapper -->
+
+  </div> <!-- center-container -->
+</ion-content>
