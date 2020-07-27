@@ -1,0 +1,28 @@
+<ion-header class="custom-toolbar">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button class="rounded"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      <div class="default-title">
+        <h2>Refresher</h2>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content 
+      pullingIcon="arrow-dropdown"
+      pullingText="Puxe para atualizar"
+      refreshingSpinner="circles"
+      refreshingText="Atualizando...">
+    </ion-refresher-content>
+  </ion-refresher>
+  <ion-list>
+    <ion-item *ngFor="let item of itens">
+      <ion-label>{{item}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

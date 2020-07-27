@@ -78,15 +78,25 @@ export class AppComponent implements OnInit {
       icon: 'infinite'
     },
     {
+      title: 'Progress Bar',
+      url: '/progressbar',
+      icon: 'barcode'
+    },
+    {
+      title: 'Refresher',
+      url: '/refresher',
+      icon: 'refresh'
+    },
+    {
+      title: 'Reorder',
+      url: '/reorder',
+      icon: 'reorder'
+    },
+    {
       title: 'Toast',
       url: '/toast',
       icon: 'receipt'
     },
-    {
-      title: 'Progress Bar',
-      url: '/progressbar',
-      icon: 'receipt'
-    }
   ];
 
   constructor(
