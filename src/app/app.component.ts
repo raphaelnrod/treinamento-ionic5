@@ -66,6 +66,26 @@ export class AppComponent implements OnInit {
       title: 'Fab',
       url: '/fab',
       icon: 'radio-button-on'
+    },
+    {
+      title: 'Grid',
+      url: '/grid',
+      icon: 'grid'
+    },
+    {
+      title: 'Infinity Scroll',
+      url: '/infinity-scroll',
+      icon: 'infinite'
+    },
+    {
+      title: 'Toast',
+      url: '/toast',
+      icon: 'receipt'
+    },
+    {
+      title: 'Progress Bar',
+      url: '/progressbar',
+      icon: 'receipt'
     }
   ];
 

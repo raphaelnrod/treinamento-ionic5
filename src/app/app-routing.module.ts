@@ -58,6 +58,22 @@ const routes: Routes = [
   {
     path: 'fab',
     loadChildren: () => import('./pages/fab/fab.module').then( m => m.FabPageModule)
+  },
+  {
+    path: 'grid',
+    loadChildren: () => import('./pages/grid/grid.module').then( m => m.GridPageModule)
+  },
+  {
+    path: 'toast',
+    loadChildren: () => import('./pages/toast/toast.module').then( m => m.ToastPageModule)
+  },
+  {
+    path: 'infinity-scroll',
+    loadChildren: () => import('./pages/infinity-scroll/infinity-scroll.module').then( m => m.InfinityScrollPageModule)
+  },
+  {
+    path: 'progressbar',
+    loadChildren: () => import('./pages/progressbar/progressbar.module').then( m => m.ProgressbarPageModule)
   }
 ];
 
