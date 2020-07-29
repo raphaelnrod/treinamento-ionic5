@@ -50,6 +50,42 @@ const routes: Routes = [
   {
     path: 'content',
     loadChildren: () => import('./pages/content/content.module').then( m => m.ContentPageModule)
+  },
+  {
+    path: 'datetime',
+    loadChildren: () => import('./pages/datetime/datetime.module').then( m => m.DatetimePageModule)
+  },
+  {
+    path: 'fab',
+    loadChildren: () => import('./pages/fab/fab.module').then( m => m.FabPageModule)
+  },
+  {
+    path: 'grid',
+    loadChildren: () => import('./pages/grid/grid.module').then( m => m.GridPageModule)
+  },
+  {
+    path: 'toast',
+    loadChildren: () => import('./pages/toast/toast.module').then( m => m.ToastPageModule)
+  },
+  {
+    path: 'infinity-scroll',
+    loadChildren: () => import('./pages/infinity-scroll/infinity-scroll.module').then( m => m.InfinityScrollPageModule)
+  },
+  {
+    path: 'progressbar',
+    loadChildren: () => import('./pages/progressbar/progressbar.module').then( m => m.ProgressbarPageModule)
+  },
+  {
+    path: 'refresher',
+    loadChildren: () => import('./pages/refresher/refresher.module').then( m => m.RefresherPageModule)
+  },
+  {
+    path: 'reorder',
+    loadChildren: () => import('./pages/reorder/reorder.module').then( m => m.ReorderPageModule)
+  },
+  {
+    path: 'searchbar',
+    loadChildren: () => import('./pages/searchbar/searchbar.module').then( m => m.SearchbarPageModule)
   }
 ];
 

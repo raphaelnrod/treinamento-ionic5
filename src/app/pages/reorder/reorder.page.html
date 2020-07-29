@@ -1,0 +1,12 @@
+<app-header></app-header>
+
+<ion-content>
+  <ion-reorder-group (ionItemReorder)="doReorder($event)" disabled="false">
+
+    <ion-item *ngFor="let item of itens">
+      <ion-label>{{item}}</ion-label>
+      <ion-reorder slot="end"></ion-reorder>
+    </ion-item>
+
+  </ion-reorder-group>
+</ion-content>

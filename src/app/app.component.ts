@@ -55,8 +55,53 @@ export class AppComponent implements OnInit {
     {
       title: 'Content',
       url: '/content',
-      icon: 'hardware-chip'
-    }
+      icon: 'cube'
+    },
+    {
+      title: 'Datetime',
+      url: '/datetime',
+      icon: 'calendar'
+    },
+    {
+      title: 'Fab',
+      url: '/fab',
+      icon: 'radio-button-on'
+    },
+    {
+      title: 'Grid',
+      url: '/grid',
+      icon: 'grid'
+    },
+    {
+      title: 'Infinity Scroll',
+      url: '/infinity-scroll',
+      icon: 'infinite'
+    },
+    {
+      title: 'Progress Bar',
+      url: '/progressbar',
+      icon: 'barcode'
+    },
+    {
+      title: 'Refresher',
+      url: '/refresher',
+      icon: 'refresh'
+    },
+    {
+      title: 'Reorder',
+      url: '/reorder',
+      icon: 'reorder-two'
+    },
+    {
+      title: 'Searchbar',
+      url: '/searchbar',
+      icon: 'search'
+    },
+    {
+      title: 'Toast',
+      url: '/toast',
+      icon: 'receipt'
+    },
   ];
 
   constructor(
@@ -74,10 +119,5 @@ export class AppComponent implements OnInit {
     });
   }
 
-  ngOnInit() {
-    const path = window.location.pathname.split('folder/')[1];
-    if (path !== undefined) {
-      this.selectedIndex = this.appPages.findIndex(page => page.title.toLowerCase() === path.toLowerCase());
-    }
-  }
+  ngOnInit() {}
 }
