@@ -12,8 +12,6 @@ export class HeaderComponent implements OnInit {
 
   title = this.router.url.replace('/', '').replace('-', ' ');
 
-  ngOnInit() {
-    console.log(this.title)
-  }
+  ngOnInit() { }
 
 }

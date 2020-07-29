@@ -98,6 +98,36 @@ export class AppComponent implements OnInit {
       icon: 'search'
     },
     {
+      title: 'Segment',
+      url: '/segment',
+      icon: 'search'
+    },
+    {
+      title: 'Slide',
+      url: '/slide',
+      icon: 'search'
+    },
+    {
+      title: 'Modal',
+      url: '/modal',
+      icon: 'search'
+    },
+    {
+      title: 'Slide',
+      url: '/slide',
+      icon: 'search'
+    },
+    {
+      title: 'Popover',
+      url: '/popover',
+      icon: 'search'
+    },
+    {
+      title: 'Slide',
+      url: '/slide',
+      icon: 'search'
+    },
+    {
       title: 'Toast',
       url: '/toast',
       icon: 'receipt'

@@ -1,0 +1,28 @@
+<app-header></app-header>
+
+<ion-content>
+
+  <ion-segment value="frutas" (ionChange)="segmentChanged($event)">
+    <ion-segment-button value="frutas">
+      <ion-label>Frutas</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="animal">
+      <ion-label>Animais</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <ion-list *ngIf="selectedOption == 'frutas'">
+    <ion-item>Maça</ion-item>
+    <ion-item>Banana</ion-item>
+    <ion-item>Melão</ion-item>
+    <ion-item>Caju</ion-item>
+  </ion-list>
+
+  <ion-list *ngIf="selectedOption == 'animal'">
+    <ion-item>Macaco</ion-item>
+    <ion-item>Cachorro</ion-item>
+    <ion-item>Gato</ion-item>
+    <ion-item>Leão</ion-item>
+  </ion-list>
+
+</ion-content>
