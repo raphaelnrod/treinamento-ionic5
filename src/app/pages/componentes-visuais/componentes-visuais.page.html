@@ -5,7 +5,7 @@
     </ion-buttons>
     <ion-title>
       <div class="default-title">
-        <h2>HOME</h2>
+        <h2>Componentes Visuais</h2>
       </div>
     </ion-title>
   </ion-toolbar>
@@ -13,7 +13,9 @@
 
 <ion-content>
   <div class="center-container">
-    <h1>Aqui é a página inicial do app</h1>
-    <p>Treinamento Ionic 5</p>
+    <ion-button (click)="showPages(menu.url)" expand="block" *ngFor="let menu of menuCollection" shape="round" color="tertiary">
+      <ion-icon slot="start" name="{{menu.icon}}"></ion-icon>
+      {{menu.title}}
+    </ion-button>
   </div>
 </ion-content>

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NavParams } from '@ionic/angular';
 
 @Component({
   selector: 'app-modal',
@@ -8,8 +7,7 @@ import { NavParams } from '@ionic/angular';
 })
 export class ModalComponent implements OnInit {
 
-  constructor(private navParams:NavParams) {
-    console.log(navParams.get("nome"));
+  constructor() {
   }
 
   ngOnInit() {}
