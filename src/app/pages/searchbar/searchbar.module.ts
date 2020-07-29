@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { IonicModule } from '@ionic/angular';
-import { ProgressbarPageRoutingModule } from './progressbar-routing.module';
-import { ProgressbarPage } from './progressbar.page';
 import { ComponentsModule} from '../../components.module'
+import { IonicModule } from '@ionic/angular';
+import { SearchbarPageRoutingModule } from './searchbar-routing.module';
+import { SearchbarPage } from './searchbar.page';
 
 @NgModule({
   imports: [
@@ -12,9 +12,8 @@ import { ComponentsModule} from '../../components.module'
     FormsModule,
     IonicModule,
     ComponentsModule,
-    IonicModule,
-    ProgressbarPageRoutingModule
+    SearchbarPageRoutingModule
   ],
-  declarations: [ProgressbarPage]
+  declarations: [SearchbarPage]
 })
-export class ProgressbarPageModule {}
+export class SearchbarPageModule {}

@@ -90,7 +90,12 @@ export class AppComponent implements OnInit {
     {
       title: 'Reorder',
       url: '/reorder',
-      icon: 'reorder'
+      icon: 'reorder-two'
+    },
+    {
+      title: 'Searchbar',
+      url: '/searchbar',
+      icon: 'search'
     },
     {
       title: 'Toast',
