@@ -1,5 +1,13 @@
 <app-header></app-header>
+<ion-toolbar color="primary">
+    <ion-searchbar color="light" placeholder="Pesquisar nomes..." [(ngModel)]="name" (keyup)="filterName($event)"></ion-searchbar>
+</ion-toolbar>
 
 <ion-content>
-
+    <ion-item *ngFor="let person of filteredPeople">
+        <ion-label>{{person.name}}</ion-label>
+    </ion-item>
+    <div *ngIf="notFound" class="center-container">
+        <h2>{{notFound}}</h2>
+    </div>
 </ion-content>
