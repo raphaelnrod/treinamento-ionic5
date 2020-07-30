@@ -118,6 +118,10 @@ const routes: Routes = [
   {
     path: 'camera',
     loadChildren: () => import('./pages/camera/camera.module').then( m => m.CameraPageModule)
+  },
+  {
+    path: 'text-to-speech',
+    loadChildren: () => import('./pages/text-to-speech/text-to-speech.module').then( m => m.TextToSpeechPageModule)
   }
 ];
 

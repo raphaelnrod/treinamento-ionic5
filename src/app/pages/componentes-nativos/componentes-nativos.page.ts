@@ -16,7 +16,13 @@ export class ComponentesNativosPage implements OnInit {
         title: 'Camera',
         url: '/camera',
         icon: 'camera'
-      }];
+      },
+      {
+        title: 'Text To Speech',
+        url: '/text-to-speech',
+        icon: 'mic'
+      }
+    ];
   }
 
   ngOnInit() {
