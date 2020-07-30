@@ -21,6 +21,11 @@ export class AppComponent implements OnInit {
       title: 'Componentes Visuais',
       url: '/componentes-visuais',
       icon: 'folder-open'
+    },
+    {
+      title: 'Componentes Nativos',
+      url: '/componentes-nativos',
+      icon: 'folder-open'
     }
   ];
 

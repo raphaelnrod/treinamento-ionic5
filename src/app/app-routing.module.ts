@@ -110,6 +110,14 @@ const routes: Routes = [
   {
     path: 'componentes-visuais',
     loadChildren: () => import('./pages/componentes-visuais/componentes-visuais.module').then( m => m.ComponentesVisuaisPageModule)
+  },
+  {
+    path: 'componentes-nativos',
+    loadChildren: () => import('./pages/componentes-nativos/componentes-nativos.module').then( m => m.ComponentesNativosPageModule)
+  },
+  {
+    path: 'camera',
+    loadChildren: () => import('./pages/camera/camera.module').then( m => m.CameraPageModule)
   }
 ];
 
