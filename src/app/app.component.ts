@@ -26,6 +26,11 @@ export class AppComponent implements OnInit {
       title: 'Componentes Nativos',
       url: '/componentes-nativos',
       icon: 'folder-open'
+    },
+    {
+      title: 'API Externa',
+      url: '/api-externa',
+      icon: 'folder-open'
     }
   ];
 

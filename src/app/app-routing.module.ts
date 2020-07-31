@@ -122,7 +122,11 @@ const routes: Routes = [
   {
     path: 'text-to-speech',
     loadChildren: () => import('./pages/text-to-speech/text-to-speech.module').then( m => m.TextToSpeechPageModule)
+  },  {
+    path: 'api-externa',
+    loadChildren: () => import('./pages/api-externa/api-externa.module').then( m => m.ApiExternaPageModule)
   }
+
 ];
 
 @NgModule({
