@@ -86,7 +86,47 @@ const routes: Routes = [
   {
     path: 'searchbar',
     loadChildren: () => import('./pages/searchbar/searchbar.module').then( m => m.SearchbarPageModule)
+  },
+  {
+    path: 'segment',
+    loadChildren: () => import('./pages/segment/segment.module').then( m => m.SegmentPageModule)
+  },
+  {
+    path: 'slide',
+    loadChildren: () => import('./pages/slide/slide.module').then( m => m.SlidePageModule)
+  },
+  {
+    path: 'modal',
+    loadChildren: () => import('./pages/modal/modal.module').then( m => m.ModalPageModule)
+  },
+  {
+    path: 'popover',
+    loadChildren: () => import('./pages/popover/popover.module').then( m => m.PopoverPageModule)
+  },
+  {
+    path: 'animation',
+    loadChildren: () => import('./pages/animation/animation.module').then( m => m.AnimationPageModule)
+  },
+  {
+    path: 'componentes-visuais',
+    loadChildren: () => import('./pages/componentes-visuais/componentes-visuais.module').then( m => m.ComponentesVisuaisPageModule)
+  },
+  {
+    path: 'componentes-nativos',
+    loadChildren: () => import('./pages/componentes-nativos/componentes-nativos.module').then( m => m.ComponentesNativosPageModule)
+  },
+  {
+    path: 'camera',
+    loadChildren: () => import('./pages/camera/camera.module').then( m => m.CameraPageModule)
+  },
+  {
+    path: 'text-to-speech',
+    loadChildren: () => import('./pages/text-to-speech/text-to-speech.module').then( m => m.TextToSpeechPageModule)
+  },  {
+    path: 'api-externa',
+    loadChildren: () => import('./pages/api-externa/api-externa.module').then( m => m.ApiExternaPageModule)
   }
+
 ];
 
 @NgModule({

@@ -1,7 +1,8 @@
 {
   "name": "treinamento-ionic5",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

@@ -1,0 +1,13 @@
+<app-header></app-header>
+
+<ion-content>
+    <ion-list>
+        <ion-item>
+            <ion-label>Texto a ser falado</ion-label>
+            <ion-input type="text" [(ngModel)]="textToSpeak"></ion-input>
+        </ion-item>
+    </ion-list>
+
+    <ion-button (click)="speak()" shape="round">Falar</ion-button>
+
+</ion-content>

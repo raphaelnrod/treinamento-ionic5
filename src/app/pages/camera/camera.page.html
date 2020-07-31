@@ -1,0 +1,12 @@
+<app-header></app-header>
+
+<ion-content>
+  <div class="center-container">
+    <ion-button (click)="takePhoto()" expand="block" shape="round">
+      Tirar Foto
+    </ion-button>
+    <ion-card [hidden]="!foto">
+      <img src="{{foto}}">
+    </ion-card>
+  </div>
+</ion-content>
