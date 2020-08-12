@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/home',
+    redirectTo: '/nested-ng-for',
     pathMatch: 'full'
   },
   {
@@ -122,9 +122,14 @@ const routes: Routes = [
   {
     path: 'text-to-speech',
     loadChildren: () => import('./pages/text-to-speech/text-to-speech.module').then( m => m.TextToSpeechPageModule)
-  },  {
+  },
+  {
     path: 'api-externa',
     loadChildren: () => import('./pages/api-externa/api-externa.module').then( m => m.ApiExternaPageModule)
+  },
+  {
+    path: 'nested-ng-for',
+    loadChildren: () => import('./pages/nested-ng-for/nested-ng-for.module').then( m => m.NestedNgForPageModule)
   }
 
 ];
