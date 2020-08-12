@@ -31,6 +31,11 @@ export class AppComponent implements OnInit {
       title: 'API Externa',
       url: '/api-externa',
       icon: 'folder-open'
+    },
+    {
+      title: 'Nested NgFor',
+      url: '/nested-ng-for',
+      icon: 'folder-open'
     }
   ];
 
