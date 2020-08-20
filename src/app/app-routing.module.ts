@@ -130,7 +130,11 @@ const routes: Routes = [
   {
     path: 'nested-ng-for',
     loadChildren: () => import('./pages/nested-ng-for/nested-ng-for.module').then( m => m.NestedNgForPageModule)
+  },  {
+    path: 'accordion',
+    loadChildren: () => import('./pages/accordion/accordion.module').then( m => m.AccordionPageModule)
   }
+
 
 ];
 

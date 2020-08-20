@@ -36,6 +36,11 @@ export class AppComponent implements OnInit {
       title: 'Nested NgFor',
       url: '/nested-ng-for',
       icon: 'folder-open'
+    },
+    {
+      title: 'Accordion',
+      url: '/accordion',
+      icon: 'folder-open'
     }
   ];
 
