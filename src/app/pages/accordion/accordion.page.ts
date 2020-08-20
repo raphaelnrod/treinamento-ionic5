@@ -31,15 +31,4 @@ export class AccordionPage implements OnInit {
     swipe: false,
     enhance: true,
   };
-
-  closeAll() {
-    this.adeline.instance.hide();
-    this.carl.instance.hide();
-    this.tinker.instance.hide();
-    this.barry.instance.hide();
-  }
-
-  toggleLast() {
-    this.barry.instance.toggle();
-  }
 }

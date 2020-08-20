@@ -6,96 +6,61 @@
 
 <ion-content>
   <mbsc-page>
-    <mbsc-form [options]="formSettings">
-      <mbsc-note color="primary">Use the accordion on forms to open only one panel at a time.</mbsc-note>
-
-      <div class="mbsc-btn-group-block">
-        <mbsc-button (click)="toggleLast()">Toggle last panel</mbsc-button>
-        <mbsc-button (click)="closeAll()">Close all panels</mbsc-button>
-      </div>
-    </mbsc-form>
-
     <mbsc-accordion>
-
-      <mbsc-card collapsible open #adeline="mobiscroll">
+      <mbsc-card collapsible>
         <mbsc-card-header>
-          <mbsc-avatar src="//demo.mobiscroll.comhttps://img.mobiscroll.com/demos/f2.png"></mbsc-avatar>
-          <mbsc-card-title class="mbsc-bold">Adeline Sharman</mbsc-card-title>
-          <mbsc-card-subtitle>Bigcorp Inc.</mbsc-card-subtitle>
+          <mbsc-card-title class="mbsc-bold">AccordionList</mbsc-card-title>
         </mbsc-card-header>
         <mbsc-card-content>
-          <mbsc-listview [options]="listviewSettings">
-            <mbsc-listview-item icon="material-email">
-              <p>Email</p>
-              <h4><a href="mailto:adeline-s@bigcorp.com">adeline-s@bigcorp.com</a></h4>
-            </mbsc-listview-item>
-            <mbsc-listview-item icon="material-phone-iphone">
-              <p>Mobile</p>
-              <h4><a href="tel:(202) 555-0147">(202) 555-0147</a></h4>
-            </mbsc-listview-item>
-          </mbsc-listview>
+          <ion-list>
+            <ion-item>
+              <ion-label>Awesome Label</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>Awesome Label</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>Awesome Label</ion-label>
+            </ion-item>
+          </ion-list>
         </mbsc-card-content>
       </mbsc-card>
-
-      <mbsc-card collapsible #carl="mobiscroll">
+      <mbsc-card collapsible>
         <mbsc-card-header>
-          <mbsc-avatar src="//demo.mobiscroll.comhttps://img.mobiscroll.com/demos/m2.png"></mbsc-avatar>
-          <mbsc-card-title class="mbsc-bold">Carl Hambledon</mbsc-card-title>
-          <mbsc-card-subtitle>Washaway Ltd.</mbsc-card-subtitle>
+          <mbsc-card-title class="mbsc-bold">AccordionList</mbsc-card-title>
         </mbsc-card-header>
         <mbsc-card-content>
-          <mbsc-listview [options]="listviewSettings">
-            <mbsc-listview-item icon="material-email">
-              <p>Email</p>
-              <h4><a href="mailto:carl.h@washaway.com">carl.h@washaway.com</a></h4>
-            </mbsc-listview-item>
-            <mbsc-listview-item icon="material-phone-iphone">
-              <p>Mobile</p>
-              <h4><a href="tel:(202) 553-5247">(202) 553-5247</a></h4>
-            </mbsc-listview-item>
-          </mbsc-listview>
+          <ion-list>
+            <ion-item>
+              <ion-label>Awesome Label</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>Awesome Label</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>Awesome Label</ion-label>
+            </ion-item>
+          </ion-list>
         </mbsc-card-content>
       </mbsc-card>
-
-      <mbsc-card collapsible #tinker="mobiscroll">
+      <mbsc-card collapsible>
         <mbsc-card-header>
-          <mbsc-avatar src="//demo.mobiscroll.comhttps://img.mobiscroll.com/demos/f1.png"></mbsc-avatar>
-          <mbsc-card-title class="mbsc-bold">Hortense Tinker</mbsc-card-title>
-          <mbsc-card-subtitle>Tinker Records</mbsc-card-subtitle>
+          <mbsc-card-title class="mbsc-bold">AccordionList</mbsc-card-title>
         </mbsc-card-header>
         <mbsc-card-content>
-          <mbsc-listview [options]="listviewSettings">
-            <mbsc-listview-item icon="material-email">
-              <p>Email</p>
-              <h4><a href="mailto:hortense@tinker.com">hortense@tinker.com</a></h4>
-            </mbsc-listview-item>
-            <mbsc-listview-item icon="material-phone-iphone">
-              <p>Mobile</p>
-              <h4><a href="tel:(202) 555-0137">(202) 555-0137</a></h4>
-            </mbsc-listview-item>
-          </mbsc-listview>
+          <ion-list>
+            <ion-item>
+              <ion-label>Awesome Label</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>Awesome Label</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>Awesome Label</ion-label>
+            </ion-item>
+          </ion-list>
         </mbsc-card-content>
       </mbsc-card>
-      <mbsc-card collapsible #barry="mobiscroll">
-        <mbsc-card-header>
-          <mbsc-avatar src="//demo.mobiscroll.comhttps://img.mobiscroll.com/demos/m1.png"></mbsc-avatar>
-          <mbsc-card-title class="mbsc-bold">Barry Lyon</mbsc-card-title>
-          <mbsc-card-subtitle>Road Scrapers Inc</mbsc-card-subtitle>
-        </mbsc-card-header>
-        <mbsc-card-content>
-          <mbsc-listview [options]="listviewSettings">
-            <mbsc-listview-item icon="material-email">
-              <p>Email</p>
-              <h4><a href="mailto:barry.ly@roads.com">barry.ly@roads.com</a></h4>
-            </mbsc-listview-item>
-            <mbsc-listview-item icon="material-phone-iphone">
-              <p>Mobile</p>
-              <h4><a href="tel:(302) 663-5247">(302) 663-5247</a></h4>
-            </mbsc-listview-item>
-          </mbsc-listview>
-        </mbsc-card-content>
-      </mbsc-card>
-
     </mbsc-accordion>
   </mbsc-page>
 </ion-content>
